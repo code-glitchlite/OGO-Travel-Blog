@@ -1,0 +1,172 @@
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+
+.container {
+  width: 64em;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  min-height: 6.25em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c1c1c1;
+}
+
+.headerContainer nav a {
+  margin-left: 4.5em;
+}
+
+.darkText {
+  color: #3b3b3b;
+}
+
+.subscribeButton {
+  padding: 0.45em 1.5em;
+  border: 0.06em solid #3b3b3b;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+/* main container */
+
+.mainContainer .titleContainer {
+  display: flex;
+
+  align-items: center;
+}
+.mainContainer .titleContainer .titleText {
+  width: 50%;
+  color: #949494;
+}
+
+.mainContainer .titleContainer .titleText h1 {
+  font-size: 3em;
+}
+
+.mainContainer .titleContainer .titleText p {
+  line-height: 1.8;
+  width: 90%;
+  margin-bottom: 3em;
+}
+
+.mainContainer .titleContainer .titleText a {
+  background-color: #faec99;
+  color: #4f4a30;
+  font-weight: bold;
+  padding: 0.06em 0.12em;
+  margin-right: 1em;
+}
+/* img title */
+.mainContainer .titleContainer .titleImage img {
+  width: 25em;
+  height: 25em;
+  margin-top: 2em;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* hr */
+.mainContainer hr {
+  margin: 7em 0;
+  border-top: 0.06em solid #9494943a;
+}
+/* icons */
+.mainContainer .titleContainer .iconsContainer i {
+  display: block;
+  position: relative;
+  left: 8em;
+  margin-top: 2em;
+  color: #949494;
+}
+
+.mainContainer .titleContainer .iconsContainer .verticalLine {
+  height: 13em;
+  border-left: 0.06em solid #9494943a;
+  position: absolute;
+  right: 10.4%;
+  top: 0.5%;
+}
+/* vertical text */
+.verticalText {
+  writing-mode: vertical-lr;
+  position: relative;
+  left: 6.8em;
+  top: 6.9em;
+  color: #9494943a;
+  font-weight: bold;
+}
+/* arrow after scrolling */
+.mainContainer .titleContainer .arrowNavigate {
+  position: relative;
+  left: 2em;
+  top: 10.3em;
+  color: #949494;
+  font-size: 2em;
+}
+/* Cards Section */
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5em;
+}
+.cardsContainer h3 {
+  font-size: 1em;
+  color: #3b3b3b;
+}
+
+.cardsContainer p {
+  font-size: 0.8em;
+  color: #949494;
+  font-weight: bold;
+}
+
+.cardsContainer a {
+  margin-right: 1em;
+}
+
+.cardsContainer hr {
+  width: 45%;
+  margin: 1em 0;
+}
+.cardsContainer .exploreCard {
+  width: 25%;
+  word-spacing: 0.2em;
+}
+
+.cardsContainer .tipsCard {
+  width: 25%;
+  word-spacing: 0.2em;
+}
+
+.cardsContainer .placesCard {
+  width: 25%;
+  word-spacing: 0.2em;
+}
+
+/* Footer Section */
+
+.footerContainer {
+  text-align: center;
+}
+
+.footerContainer h3 {
+  font-weight: lighter;
+  display: inline;
+  margin-right: 0.2em;
+  color: #949494;
+}
+
+.footerContainer a {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #3b3b3b;
+}
